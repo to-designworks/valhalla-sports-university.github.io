@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資料請求 | ヴァルハラ体育大学</title>
+<meta name="description" content="ヴァルハラ体育大学の資料請求ページです。パンフレットのご請求はこちらから。">
+<link rel="stylesheet" href="../common/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <a href="../index.html" class="header-logo">
+              <img src="../common/images/logo_header.png" alt="ヴァルハラ体育大学のロゴ">
+              <div class="header-logo-text">
+                 <span class="header-logo-ja">ヴァルハラ体育大学</span>
+                 <span class="header-logo-en">Valhalla Sports University</span>
+              </div>
+            </a>
+            <nav>
+              <a href="#form" class="nav-btn">資料請求</a>
+            </nav>
+        </div>
+    </header>
+
+<main class="request">
+
+    <div class="section-inner">
+    <h1 class="page-title">
+    資料請求
+    <img src="../request/images/request_title-line.png" alt="" class="request_title-line">
+    </h1>
+    </div>
+    
+    <section class="request-materials">
+      <div class="section-inner">
+      <h2 class="request-section-heading">
+      <span class="request-heading-en">BOOKS</span>
+      <span class="request-heading-ja">送付資料</span>
+      </h2>
+        <div class="materials-wrap">
+        <ul class="materials-list">
+          <li class="materials-item">
+          <h3>大学案内</h3>
+          <img src="../request/images/book01.jpg" alt="大学案内の冊子">
+          </li>
+          <li class="materials-item">
+          <h3>入試ガイド</h3>
+          <img src="../request/images/book02.jpg" alt="入試ガイドの冊子">
+          </li>
+          <li class="materials-item">
+          <h3>クラブ・サークルガイド</h3>
+          <img src="../request/images/book03.jpg" alt="クラブ・サークルガイドの冊子">
+          </li>
+          <li class="materials-item">
+          <h3>学報「剣」</h3>
+          <img src="../request/images/book04.jpg" alt="学報「剣」の冊子">
+          </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <p class="request-steps" id="form">お申し込みは、わずか3ステップ</p>
+      <ol class="request-steps-list">
+        <li class="current">入力</li>
+        <li class="step">確認</li>
+        <li class="step">完了</li>
+      </ol>
+
+    <p class="form-lead">
+    ヴァルハラ体育大学の資料をご請求いただきありがとうございます。<br>
+    ご入力いただいた個人情報は厳重に管理し、資料発送のみに使用いたします。
+    </p>
+
+
+<section class="input-form">
+<h2 class="request-section-heading">
+<span class="request-heading-en">FORM</span>
+<span class="request-heading-ja">お届け先情報</span>
+</h2>
+
+<form action="#" method="post" novalidate>
+<div class="form-wrapper">
+<p class="form-error-message"></p>
+
+<div class="form-group">
+<label for="name">
+お名前
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="last-name" id="last-name" placeholder="姓" required>
+<input type="text" name="first-name" id="first-name" placeholder="名" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="name-kana">
+フリガナ
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="last-name-kana" id="last-name-kana" placeholder="セイ" required>
+<input type="text" name="first-name-kana" id="first-name-kana" placeholder="メイ" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="post-code">
+郵便番号
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="post-code" id="post-code" placeholder="1234567" required>
+<button type="button" class="search-address">
+住所検索
+</button>
+</div>
+</div>
+
+<div class="form-group">
+<label for="prefecture">
+都道府県
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<select id="prefecture" name="prefecture" required>
+<option value="" disabled selected>都道府県を選択</option>
+<option value="hokkaido">北海道</option>
+<option value="aomori">青森県</option>
+<option value="iwate">岩手県</option>
+<option value="miyagi">宮城県</option>
+<option value="akita">秋田県</option>
+<option value="yamagata">山形県</option>
+<option value="fukushima">福島県</option>
+<option value="ibaraki">茨城県</option>
+<option value="tochigi">栃木県</option>
+<option value="gunma">群馬県</option>
+<option value="saitama">埼玉県</option>
+<option value="chiba">千葉県</option>
+<option value="tokyo">東京都</option>
+<option value="kanagawa">神奈川県</option>
+<option value="nigata">新潟県</option>
+<option value="toyama">富山県</option>
+<option value="ishikawa">石川県</option>
+<option value="fukui">福井県</option>
+<option value="yamanashi">山梨県</option>
+<option value="nagano">長野県</option>
+<option value="gifu">岐阜県</option>
+<option value="shizuoka">静岡県</option>
+<option value="aichi">愛知県</option>
+<option value="mie">三重県</option>
+<option value="shiga">滋賀県</option>
+<option value="kyoto">京都府</option>
+<option value="osaka">大阪府</option>
+<option value="hyogo">兵庫県</option>
+<option value="nara">奈良県</option>
+<option value="wakayama">和歌山県</option>
+<option value="tottori">鳥取県</option>
+<option value="shimane">島根県</option>
+<option value="okayama">岡山県</option>
+<option value="hiroshima">広島県</option>
+<option value="yamaguchi">山口県</option>
+<option value="tokushima">徳島県</option>
+<option value="kagawa">香川県</option>
+<option value="ehime">愛媛県</option>
+<option value="kochi">高知県</option>
+<option value="fukuoka">福岡県</option>
+<option value="saga">佐賀県</option>
+<option value="nagasaki">長崎県</option>
+<option value="kumamoto">熊本県</option>
+<option value="oita">大分県</option>
+<option value="miyazaki">宮崎県</option>
+<option value="kagoshima">鹿児島県</option>
+<option value="okinawa">沖縄県</option>
+</select>
+</div>
+</div>
+
+<div class="form-group">
+<label for="municipalities">
+市区町村
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="municipalities" id="municipalities" placeholder="〇〇市〇〇区〇〇" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="street-number">
+番地
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="street-number" id="street-number" placeholder="１－２－３" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="apartment-room-no">
+建物名（任意）
+</label>
+<div class="form-row">
+<input type="text" id="apartment-room-no" placeholder="〇〇マンション１０１号室">
+</div>
+</div>
+
+<div class="form-group">
+<label for="phone-number">
+電話番号
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="phone-number" id="phone-number" placeholder="09012345678" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="email-address">
+メールアドレス
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="email" name="email-address" id="email-address" placeholder="xxxx@xxxx.com" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="gender">
+性別
+<span class="required">*</span>
+</label>
+<div class="form-row radio-group">
+<input type="radio" name="gender" value="male" id="male" required>
+<label for="male">男性</label>
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">女性</label>
+<input type="radio" name="gender" value="no-answer" id="no-answer">
+<label for="no-answer">回答しない</label>
+</div>
+</div>
+
+<div class="form-group birth">
+<label>
+生年月日
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<select id="birthyear" name="birthyear" required>
+<option value="" disabled selected>年を選択</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+<option value="1979">1979</option>
+<option value="1978">1978</option>
+<option value="1977">1977</option>
+<option value="1976">1976</option>
+<option value="1975">1975</option>
+<option value="1974">1974</option>
+<option value="1973">1973</option>
+<option value="1972">1972</option>
+<option value="1971">1971</option>
+<option value="1970">1970</option>
+<option value="1969">1969</option>
+<option value="1968">1968</option>
+<option value="1967">1967</option>
+<option value="1966">1966</option>
+</select>
+<span>年</span>
+
+<select id="birthmonth" name="birthmonth" required>
+<option value="" disabled selected>月を選択</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<span>月</span>
+
+<select id="birthday" name="birthday" required>
+<option value="" disabled selected>日を選択</option>
+<option value="1">1</option>
+
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<span>日</span>
+</div>
+</div>
+
+<div class="form-group">
+<label for="enrollment-status">
+在籍区分
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<select id="enrollment-status" name="enrollment-status" required>
+<option value="" disabled selected>在籍区分を選択</option>
+<option value="1">高校生</option>
+<option value="2">高専生</option>
+<option value="3">予備校生・浪人生</option>
+<option value="4">大学生</option>
+<option value="5">短大生</option>
+<option value="6">大学院生</option>
+<option value="7">専門学校生</option>
+<option value="8">中学生</option>
+<option value="9">留学生</option>
+<option value="10">社会人</option>
+<option value="11">教育関係者</option>
+<option value="12">保護者</option>
+<option value="13">その他</option>
+</select>
+</div>
+</div>
+
+<div class="form-group">
+<label for="high-school-graduate">
+在卒高校
+<span class="required">*</span>
+</label>
+<div class="form-row">
+<input type="text" name="high-school-graduate" id="high-school-graduate" placeholder="〇〇県立〇〇高等学校" required>
+<button type="button" class="search-high-school">
+高校検索
+</button>
+</div>
+</div>
+
+<div class="form-group">
+<label for="departments">
+学科
+<span class="required">*</span>
+</label>
+<div class="form-row radio-group vertical">
+<label>
+    <input type="radio" name="department" required>
+    アスリート養成学科
+  </label>
+
+  <label>
+    <input type="radio" name="department">
+    スポーツトレーナー学科
+  </label>
+
+  <label>
+    <input type="radio" name="department">
+    スポーツビジネス学科
+  </label>
+</div>
+</div>
+
+<button type="submit" class="confirmation-screen">
+確認画面へすすむ
+</button>
+</div>
+</form>
+
+ </main>
+
+    <footer>
+       <div class="footer-inner">
+         <div class="footer-info">
+            <a href="../index.html" class="footer-logo">
+              <img src="../common/images/logo_footer.png" alt="ヴァルハラ体育大学のロゴ">
+              <div class="footer-logo-text">
+               <span class="footer-logo-ja">ヴァルハラ体育大学</span>
+               <span class="footer-logo-en">Valhalla Sports University</span>
+              </div>
+            </a>
+            <p class="address">
+              〒160-0001<br>
+              東京都新宿区超人町1-1-1
+            </p>
+            <p class="introduction">
+              ヴァルハラとは、北欧神話における戦士の楽園。<br>
+              戦い抜いた者だけが辿り着く聖地。<br>
+              本学は、その精神を現代に体現する体育大学である。
+            </p>
+         </div>
+         <div class="footer-nav">
+           <nav>
+             <ul>
+                 <li><a href="#form">資料請求</a></li>
+                 <li><a href="#">お問い合わせ</a></li>
+                 <li><a href="#">交通アクセス</a></li>
+                 <li><a href="#">サイトマップ</a></li>
+             </ul>
+           </nav>
+         </div>
+       </div>
+       <p class="copyright">©2026 Valhalla Sports University</p>
+    </footer>
+
+<script src="../common/js/main.js"></script>
+
+</body>
+</html>
